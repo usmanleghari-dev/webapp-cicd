@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task Manager</title>
+    <style>
+        body { 
+            margin: 0 auto; 
+            max-width: 800px; 
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        .task { 
+            margin: 10px 0; 
+            padding: 10px; 
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        form {
+            margin: 20px 0;
+        }
+        input[type="text"] {
+            padding: 8px;
+            width: 300px;
+        }
+        button {
+            padding: 8px 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    {% block content %}{% endblock %}
+</body>
+</html>
